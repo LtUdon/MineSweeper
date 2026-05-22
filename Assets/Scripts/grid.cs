@@ -5,6 +5,9 @@ public class grid : MonoBehaviour
     public int sizeX = 10;
     public int sizeY = 10;
 
+    [Range(0f, 100f)]
+    public float mineDensityPercentage = 16f;
+
     [Tooltip("The value of \"Size Y\" will be set to \"Size X\" if true.")]
     public bool isSquare = true;
 
