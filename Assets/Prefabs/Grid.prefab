@@ -44,6 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443f28906a628904fbe6920fa935107a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  sizeX: 35
-  sizeY: 44
+  box: {fileID: 5204291360431149340, guid: 1fc2dc70ab0db9840a8c65487d04ddbe, type: 3}
+  sizeX: 10
+  sizeY: 10
+  mineDensityPercentage: 16
   isSquare: 1
+  spawnType: 0

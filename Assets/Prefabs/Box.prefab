@@ -88,7 +88,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -107,6 +107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isTrap: 0
   isOpened: 0
+  closedSprite: {fileID: 1179867958150419378, guid: a3088fa2fa8bfab48829e5e8fd03cb1f, type: 3}
+  openedSprite: {fileID: 9190880630922886066, guid: f08d5751a30050144b7bb44863099460, type: 3}
 --- !u!61 &8598673493478848509
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -145,8 +147,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.5, y: 0.5}
-    newSize: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
